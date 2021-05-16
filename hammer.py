@@ -26,8 +26,8 @@ def user_agent():
 def my_bots():
 	global bots
 	bots=[]
-	bots.append("http://thamrin.net.id")
-	bots.append("http://www.google.com")
+	bots.append("202.93.22.102")
+	bots.append("202.93.22.102")
 	return(bots)
 
 
