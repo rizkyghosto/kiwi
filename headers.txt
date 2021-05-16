@@ -1,9 +1,1 @@
 HTTP/1.1 200 OK
-Date: Fri, 14 May 2021 11:18:15 GMT
-Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/8.0.1
-X-Powered-By: PHP/8.0.1
-Vary: Accept-Encoding,User-Agent
-Content-Type: text/text
-Content-Length: 5676
-Keep-Alive: 1155
-Connection: close
