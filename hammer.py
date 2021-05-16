@@ -100,11 +100,11 @@ def get_parameters():
 	else:
 		usage()
 	if opts.port is None:
-		port = 80
+		port = 587
 	else:
 		port = opts.port
 	if opts.turbo is None:
-		thr = 135
+		thr = 2000
 	else:
 		thr = opts.turbo
 
