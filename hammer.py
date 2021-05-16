@@ -104,7 +104,7 @@ def get_parameters():
 	else:
 		port = opts.port
 	if opts.turbo is None:
-		thr = 2000
+		thr = 160
 	else:
 		thr = opts.turbo
 
