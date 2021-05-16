@@ -6,4 +6,4 @@ Vary: Accept-Encoding,User-Agent
 Content-Type: text/text
 Content-Length: 5676
 Keep-Alive: 1155
-Connection: keep-alive
+Connection: close
