@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# python 3.3.2+ BOM NUKLIR Script
-# by Rizkyghost
-# SAMLEKOM
+# python 3.3.2+ Hammer Dos Script v.1
+# by Can Yalçın
+# only for legal purpose
 
 
 from queue import Queue
@@ -105,7 +105,7 @@ def get_parameters():
 	else:
 		usage()
 	if opts.port is None:
-		port = 80
+		port = 587
 	else:
 		port = opts.port
 	if opts.turbo is None:
